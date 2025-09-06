@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 100%;
 }
 
 body {
@@ -53,6 +53,52 @@ header {
     font-weight: bold;
 }
 
+/* Hamburger button */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile hearder */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.1rem 1rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .logo {
+        max-width: 60%;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-nav,
+    .auth-nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+        gap: 1rem;
+        background-color: #161318;
+        border-top: 1px solid #9E3DC1;
+        padding: 1rem 0;
+    }
+
+    .main-nav.active,
+    .auth-nav.active {
+        display: flex;
+    }
+}
+
 /*footer*/
 footer {
     background-color: #161318;
@@ -88,7 +134,7 @@ footer {
 }
 
 .footer-bottom {
-    font-size: 0.8rem;
+    font-size: clamp(0.7rem, 1.5vw, 0.8rem);
     color: #828282;
     margin-top: 1rem;
 }
@@ -100,7 +146,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: clamp(2rem, 10vw, 6rem);
     padding: 0 10%;
     min-height: 70vh;
     color: white;
@@ -123,7 +169,7 @@ footer {
     text-align: left;
     position: relative;
     z-index: 1;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
     max-width: 50%;
 }
 
@@ -163,6 +209,45 @@ footer {
     transform: scale(1.02)
 }
 
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+        gap: 2rem;
+        min-height: auto;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        font-size: clamp(1rem, 4vw, 1.2rem);
+        text-align: center;
+    }
+
+    .hero-text h1.maintitle {
+        font-size: clamp(1.8rem, 8vw, 3rem);
+        margin-bottom: 1rem;
+    }
+
+    .hero-text p.maindescription {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+        margin-bottom: 1.5rem;
+    }
+
+    .mainlogo {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .button-saibamais,
+    .button-contact {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+
 /*AI logos*/
 .ailogos {
     margin-top: 2em;
@@ -189,7 +274,7 @@ footer {
 
 /*Sobre Nos*/
 #about {
-  scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
 
 .sobre-nos {
@@ -204,14 +289,14 @@ footer {
 
 .mainp {
     max-width: 45em;
-    font-size: 1.4rem;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
     margin: 0 auto 2em;
     line-height: 1.6;
 }
 
 .info {
     position: relative;
-    padding: 5rem 10%;
+    padding: clamp(2rem, 8vw, 5rem) 10%;
     z-index: 2;
 }
 
@@ -256,9 +341,36 @@ footer {
 
 .services-text {
     text-align: left;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
     position: relative;
     z-index: 1;
     flex: 0 0 auto;
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+
+    .services-title,
+    .services-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .services-title h1 {
+        font-size: clamp(1.5rem, 5vw, 2rem);
+        margin-bottom: 0.5rem;
+    }
+
+    .services-text p {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+        margin: 0 auto;
+    }
 }
 
 .serviceslist {
@@ -288,18 +400,19 @@ footer {
 .servicesbox h1 {
 
     margin: 0.5rem 0 0.25rem;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 .servicesbox p {
     margin: 0 0 4rem;
-    font-size: 1rem;
+    font-size: clamp(.9rem, 2vw, 1rem);
 }
 
 /*Form*/
-#contact{
+#contact {
     scroll-margin-top: 100px;
 }
+
 .contact-form {
     margin: 10vh auto;
     padding: 1rem;

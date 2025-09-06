@@ -11,16 +11,20 @@
 
 <body>
     <header>
-        <a href="../"><img src="src/logo_name.png" alt="" class="logo"></a>
-        <nav class="main-nav">
+        <a href="index.html"><img src="src/logo_name.png" alt="" class="logo"></a>
 
+        <button class="hamburger" aria-label="Menu">
+            ☰
+        </button>
+
+        <nav class="main-nav">
             <a href="#about">Sobre Nós</a>
             <a href="#contact">Contate-nos</a>
             <a href="#">Automação em IA</a>
-            <a href="post">Blog</a>
+            <!--<a href="post">Blog</a>-->
         </nav>
         <nav class="auth-nav">
-            <a href="login">Login</a>
+            <!--<a href="login">Login</a>-->
         </nav>
     </header>
 
@@ -87,8 +91,9 @@
                     <h1>O que fazemos?</h1>
                 </div>
                 <div class="services-text">
-                    <p>Pequena descrição Lorem ipsum dolor sit,
-                        amet consectetur adipisicing elit.
+                    <p>Utilizamos os melhores modelos de inteligência artificial disponíveis para oferecer uma gama de
+                        serviços que otimizam processos e aumentam a eficiência do seu negócio, garantindo soluções
+                        inovadoras e personalizadas para suas necessidades.
                     </p>
                 </div>
             </div>
@@ -152,5 +157,15 @@
         <p class="footer-bottom">© 2025 Lab Quartz. Todos os direitos reservados.</p>
     </footer>
 </body>
-
 </html>
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const mainNav = document.querySelector(".main-nav");
+  const authNav = document.querySelector(".auth-nav");
+
+  hamburger.addEventListener("click", () => {
+    mainNav.classList.toggle("active");
+    authNav.classList.toggle("active");
+  });
+</script>
