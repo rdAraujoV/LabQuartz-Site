@@ -1,0 +1,335 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Black
+FamilyName:Rubik
+StyleName:Black
+FullName:Rubik Black
+MenuName:Rubik Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207832
+FileModTime:1756736812
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik Black
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-BlackItalic
+FamilyName:Rubik
+StyleName:Black Italic
+FullName:Rubik Black Italic
+MenuName:Rubik Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:206960
+FileModTime:1756736812
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik Black
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Bold
+FamilyName:Rubik
+StyleName:Bold
+FullName:Rubik Bold
+MenuName:Rubik
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:208316
+FileModTime:1756736812
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-BoldItalic
+FamilyName:Rubik
+StyleName:Bold Italic
+FullName:Rubik Bold Italic
+MenuName:Rubik
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207200
+FileModTime:1756736812
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-ExtraBold
+FamilyName:Rubik
+StyleName:ExtraBold
+FullName:Rubik ExtraBold
+MenuName:Rubik ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:208212
+FileModTime:1756736812
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik ExtraBold
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-ExtraBoldItalic
+FamilyName:Rubik
+StyleName:ExtraBold Italic
+FullName:Rubik ExtraBold Italic
+MenuName:Rubik ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207336
+FileModTime:1756736812
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik ExtraBold
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Italic
+FamilyName:Rubik
+StyleName:Italic
+FullName:Rubik Italic
+MenuName:Rubik
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:206340
+FileModTime:1756736813
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Light
+FamilyName:Rubik
+StyleName:Light
+FullName:Rubik Light
+MenuName:Rubik Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:206696
+FileModTime:1756736813
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik Light
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-LightItalic
+FamilyName:Rubik
+StyleName:Light Italic
+FullName:Rubik Light Italic
+MenuName:Rubik Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:205672
+FileModTime:1756736813
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik Light
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Medium
+FamilyName:Rubik
+StyleName:Medium
+FullName:Rubik Medium
+MenuName:Rubik Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:208200
+FileModTime:1756736813
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik Medium
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-MediumItalic
+FamilyName:Rubik
+StyleName:Medium Italic
+FullName:Rubik Medium Italic
+MenuName:Rubik Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207048
+FileModTime:1756736813
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik Medium
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Regular
+FamilyName:Rubik
+StyleName:Regular
+FullName:Rubik Regular
+MenuName:Rubik
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207628
+FileModTime:1756736813
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-SemiBold
+FamilyName:Rubik
+StyleName:SemiBold
+FullName:Rubik SemiBold
+MenuName:Rubik SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:208208
+FileModTime:1756736813
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik SemiBold
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-SemiBoldItalic
+FamilyName:Rubik
+StyleName:SemiBold Italic
+FullName:Rubik SemiBold Italic
+MenuName:Rubik SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Quartz Workspace\site\src\Font\Rubik-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207184
+FileModTime:1756736813
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Rubik SemiBold
+NameArray:0,Win,16,Rubik
+%EndFont
+
