@@ -5,18 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabQuartz AI</title>
-    <link rel="icon" type="img/x-icon" href="src\logo_icon.png">
+    <link rel="icon" type="image/x-icon" href="src/logo_icon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img src="src/logo_name.png" alt="" class="logo"></a>
-
         <button class="hamburger" aria-label="Menu">
             ☰
         </button>
-
+        <a href="index.html"><img src="src/logo_name.png" alt="" class="logo desktop-logo"></a>
+        <img src="src/logo_icon.png" alt="LabQuartz AI Mobile" class="logo mobile-logo">
         <nav class="main-nav">
             <a href="#about">Sobre Nós</a>
             <a href="#contact">Contate-nos</a>
@@ -30,9 +29,10 @@
 
     <div class="hero">
         <div class="hero-text">
-            <h1 class="maintitle">LabQuartz</h1>
+            <h1 class="maintitle">TEST</h1>
             <p class="maindescription">
-                Automatize, inove, escale. Nossas soluções em IA eliminam tarefas repetitivas e liberam tempo para o que
+                Automatize, inove, escale. Nossos <b>Agentes de IA</b> eliminam tarefas repetitivas e liberam tempo para
+                o que
                 realmente importa: fazer sua empresa crescer.
             </p>
             <a href="#about"><button class="button-saibamais">Saiba Mais</button></a>
@@ -54,12 +54,11 @@
     <section id="about">
         <div class="sobre-nos">
             <h1>Quem somos?</h1>
-            <p class="mainp">Especializamo-nos em soluções de automação baseadas em inteligência artificial que atendem,
+            <p class="mainp">Especializamo-nos em soluções de automação baseadas em <b>Agentes de Inteligência
+                    Artificial</b> que atendem,
                 resolvem e vendem 24/7. Nossa tecnologia eleva a experiência do cliente, reduz custos e impulsiona
-                vendas.
-                No cenário atual, não automatizar seu atendimento significa perder mercado para concorrentes que já usam
-                IA
-                a seu favor.</p>
+                vendas. No cenário atual, não automatizar seu atendimento significa perder mercado para concorrentes que
+                já usam IA a seu favor.</p>
             <div class="info">
                 <section class="infolist">
                     <div class="infobox">
@@ -71,17 +70,15 @@
                     </div>
                     <div class="infobox">
                         <h1>Experiência do Cliente Aprimorada</h1>
-                        <p>Ferramentas alimentadas por IA, como chatbots ou sistemas de recomendação personalizados,
-                            oferecem
-                            suporte 24/7 e interações sob medida, melhorando a satisfação e a fidelidade do cliente.
+                        <p>Nossas ferramentas alimentadas por IA, oferecem suporte 24/7 e interações sob medida,
+                            melhorando a satisfação e a fidelidade do cliente.
                     </div>
                     <div class="infobox">
                         <h1>Decisões Baseadas em Dados</h1>
                         <p>A IA analisa grandes conjuntos de dados rapidamente, fornecendo insights acionáveis e
-                            previsões
-                            precisas para orientar escolhas estratégicas, como otimizar cadeias de suprimentos ou
-                            direcionar
-                            campanhas de marketing.
+                            previsões precisas para orientar
+                            escolhas estratégicas, como otimizar cadeias de suprimentos ou direcionar campanhas de
+                            marketing.
                     </div>
                 </section>
             </div>
@@ -99,18 +96,22 @@
             </div>
             <div class="serviceslist">
                 <div class="servicesbox">
-                    <h1>Automações</h1>
-                    <p>Pequena descrição sobre automação Lorem ipsum dolor sit,
-                        amet consectetur adipisicing elit.
-                    </p>
-                    <h1>Outro Serviço</h1>
-                    <p>Pequena descrição Lorem ipsum dolor sit,
-                        amet consectetur adipisicing elit.
-                    </p>
-                    <h1>Outro Serviço</h1>
-                    <p>Pequena descrição Lorem ipsum dolor sit,
-                        amet consectetur adipisicing elit.
-                    </p>
+                    <div class="service-item">
+                        <h1>Agentes de IA</h1>
+                        <p>Os <b>Agentes de IA</b> são sistemas que percebem seu ambiente e agem de forma autônoma para
+                            alcançar um objetivo.
+                            Eles podem ser de programas simples até robôs complexos, sendo essenciais para
+                            <b>automatizar</b> tarefas e resolver problemas.
+                        </p>
+                    </div>
+                    <div class="service-item">
+                        <h1>Automação</h1>
+                        <p>A <b>automação</b> utiliza os agentes para realizar tarefas de forma autônoma, otimizando o
+                            serviço ao cliente. Ela vai de chats que respondem a perguntas frequentes a sistemas que
+                            agendam
+                            compromissos, agilizando processos e melhorando a experiência do cliente.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,16 +157,18 @@
         </div>
         <p class="footer-bottom">© 2025 Lab Quartz. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mainNav = document.querySelector(".main-nav");
+        const authNav = document.querySelector(".auth-nav");
+
+        hamburger.addEventListener("click", () => {
+            mainNav.classList.toggle("active");
+            authNav.classList.toggle("active");
+        });
+    </script>
+
 </body>
+
 </html>
-
-<script>
-  const hamburger = document.querySelector(".hamburger");
-  const mainNav = document.querySelector(".main-nav");
-  const authNav = document.querySelector(".auth-nav");
-
-  hamburger.addEventListener("click", () => {
-    mainNav.classList.toggle("active");
-    authNav.classList.toggle("active");
-  });
-</script>

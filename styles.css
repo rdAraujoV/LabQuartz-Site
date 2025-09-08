@@ -25,11 +25,17 @@ header {
     padding: 0.05rem 2rem;
     color: white;
     background-color: #161318;
-    z-index: 1000;
+    z-index: 999;
+    overflow: visible;
 }
 
-.logo {
+.mobile-logo {
+    display: none;
+}
+
+.desktop-logo {
     max-width: 80%;
+    display: block;
 }
 
 /* Center nav */
@@ -61,23 +67,44 @@ header {
     border: none;
     color: white;
     cursor: pointer;
+    width: 20%;
+    height: 2em;
 }
 
 /* Mobile hearder */
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         padding: 0.1rem 1rem;
+        position: sticky;
+
+    }
+
+    header a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hamburger {
         display: block;
+        margin-bottom: 5%;
     }
 
     .logo {
-        max-width: 60%;
-        margin-bottom: 0.5rem;
+        max-width: auto;
+        height: 4em;
+        order: 1;
+    }
+
+    .desktop-logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
     }
 
     .main-nav,
@@ -85,18 +112,38 @@ header {
         display: none;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        margin-top: 1rem;
+        width: 50%;
+        margin: 0;
         gap: 1rem;
         background-color: #161318;
-        border-top: 1px solid #9E3DC1;
-        padding: 1rem 0;
+        border-right: 1px solid #9E3DC1;
+        padding: 0.75rem 0 1rem;
+        align-items: stretch;
+        position: absolute;
+        top: calc(100%);
+        left: 0;
+        right: 0;
+        z-index: 1000;
     }
 
     .main-nav.active,
     .auth-nav.active {
         display: flex;
     }
+
+    .main-nav>a,
+    .auth-nav>a {
+        display: block;
+        width: 100%;
+        padding: 0.75rem 1rem;
+        text-align: center;
+    }
+
+    .main-nav>a:first-child,
+    .auth-nav>a:first-child {
+        padding-top: 1rem;
+    }
+
 }
 
 /*footer*/
@@ -319,6 +366,7 @@ footer {
     text-align: center;
     transition: transform 0.2s;
     background-color: #161318;
+
 }
 
 /*what we do*/
@@ -385,27 +433,34 @@ footer {
 
 .servicesbox {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-direction: row;
     justify-content: space-between;
     padding: 2rem;
     border-radius: 8px;
-    max-width: 300px;
+    max-width: 900px;
     outline: 1pt solid #9E3DC1;
     box-shadow: 2px 2px 12px #9E3DC1;
-    text-align: center;
+    text-align: left;
     transition: transform 0.2s;
     background-color: #161318;
 }
 
-.servicesbox h1 {
-
+.services-item h1 {
     margin: 0.5rem 0 0.25rem;
     font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
-.servicesbox p {
+.services-item p {
     margin: 0 0 4rem;
     font-size: clamp(.9rem, 2vw, 1rem);
+}
+
+.service-item {
+    flex: 1 1 45%;
+    min-width: 300px;
+    margin-bottom: 0.5rem;
 }
 
 /*Form*/
