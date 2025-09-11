@@ -549,6 +549,12 @@ button:hover {
     background-color: #c86ff2;
 }
 
+#form-status {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 /* Blog Page */
 .blog-container {
     max-width: 800px;
