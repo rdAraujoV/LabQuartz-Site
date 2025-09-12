@@ -549,10 +549,32 @@ button:hover {
     background-color: #c86ff2;
 }
 
-#form-status {
+#success-dialog {
+    border: 1px solid #9E3DC1;
+    border-radius: 0.5em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+}
+
+#success-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#success-dialog h2 {
+    color: #28a745; 
+    margin-top: 0;
+}
+
+#success-dialog button {
     margin-top: 1rem;
-    font-size: 1.1rem;
-    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #9E3DC1;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
 }
 
 /* Blog Page */
